@@ -1,0 +1,147 @@
+/*font weight mozna zooptymalizawc 
+background color tez
+*/ 
+.head-color-custom {
+    background-color: rgb(254, 247, 237); 
+} 
+ 
+/* Only stick if you can fit */
+@media (max-height: 720px) {
+    .head-color-custom {
+      position: sticky;
+      top: 0;
+      z-index: 1; 
+    }
+}  
+.menu-custom{ 
+    color:rgb(58, 84, 180);
+    line-height: 40px; 
+    font-weight: lighter; 
+    font-size: 14px;
+    pointer-events: auto; 
+    font: 'work sans',sans-serif;
+    white-space: nowrap;
+} 
+.btn-custom {
+    font-weight: lighter; 
+    font-size: 14px;
+    pointer-events: auto; 
+    font: 'work sans',sans-serif;
+    white-space: nowrap;
+}
+.main-custom {
+    background-color: rgb(254, 247, 237);  
+}   
+.brand-custom {
+    color:rgb(58, 84, 180); 
+    letter-spacing: 1px;
+}  
+.colorOfFonts{
+    color: rgb(58, 84, 180);
+}
+.zebra-main{  
+    font-size: 19vw;  
+}
+.sklep-main {
+    font-size: 7vw;
+} 
+/*na najmniejszym ekranie*/  
+.events-font-size{
+    font-size: 5vw;
+} 
+.events-header{
+    font-size:11vw; 
+    /* color:yellow */
+}
+
+/* Sceen sm and more*/
+@media(min-width:576px){
+    .zebra-main{
+        font-size: 10vw;  
+    }
+    .sklep-main {
+        font-size: 3vw;
+    } 
+    .main-custom {
+        background-color: rgb(254, 247, 237);  
+        height: 90vh; 
+    } 
+    .events-font-size{
+        font-size: 3.5vw;
+        /* color:green; */
+    } 
+    .events-header{
+        font-size:7vw; 
+        /* color:blue; */
+    }
+}  
+/*Screen lg and more*/
+@media(min-width: 768px){
+    .events-font-size{
+        font-size: 1.7vw;
+        /*color:red;*/
+    } 
+    .events-header{
+        font-size:4vw; 
+        /* color:red */
+    }
+}
+.font-awesome{
+    font-size:30px;  
+    color: rgb(58, 84, 180);    
+}
+.headcard{
+    font-family: Arial,Helvetica,sans-serif;  
+    font-size: 14px; 
+}
+.color-custom{
+    background-color: rgb(58, 84, 180)
+}  
+.events-custom{
+    /* font-size:  57px ; */
+    line-height: 1.25em;
+}
+.events-description{
+    font-weight: lighter;
+    position: relative; 
+}
+.img-container {
+    position: relative; 
+  }
+.img-container::after {
+    content: "";
+    display: block;
+    padding-bottom: 100%;
+  }
+.img-container img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+} 
+.opinion-header{
+    font-weight: 600;
+}  
+.opinion-content{
+    letter-spacing: 0.04em;
+    line-height: 1.7em;
+}
+.opinion-footer{
+    font-weight: 600;
+    font-size: 12px; 
+    font-family: 'work sans',sans-serif;
+} 
+.footer-fonts{
+    font-size: 15px; 
+    font-family: 'Roboto', sans-serif;  
+}
+.footer-fonts-options{
+    font-family: 'Work Sans', sans-serif;
+}
+.footer-fb{
+    font-size: 25px; 
+    font-family: 'Roboto', sans-serif;  
+}
+.imgONas{
+    width: 40vw;
+}
