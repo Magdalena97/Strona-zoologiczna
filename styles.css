@@ -1,39 +1,17 @@
-/*font weight mozna zooptymalizawc 
-background color tez
-*/ 
-.head-color-custom {
+.background-custom {
     background-color: rgb(254, 247, 237); 
-} 
- 
-/* Only stick if you can fit */
-@media (max-height: 720px) {
-    .head-color-custom {
-      position: sticky;
-      top: 0;
-      z-index: 1; 
-    }
 }  
 .menu-custom{ 
-    color:rgb(58, 84, 180);
-    line-height: 40px; 
-    font-weight: lighter; 
-    font-size: 14px;
-    pointer-events: auto; 
-    font: 'work sans',sans-serif;
-    white-space: nowrap;
+    line-height: 40px;       
 } 
-.btn-custom {
-    font-weight: lighter; 
-    font-size: 14px;
+.menu-button-custom{
+    font-size: 14px; 
+    font-weight: lighter;
     pointer-events: auto; 
     font: 'work sans',sans-serif;
-    white-space: nowrap;
-}
-.main-custom {
-    background-color: rgb(254, 247, 237);  
-}   
-.brand-custom {
-    color:rgb(58, 84, 180); 
+    white-space: nowrap; 
+} 
+.brand-custom { 
     letter-spacing: 1px;
 }  
 .colorOfFonts{
@@ -51,9 +29,7 @@ background color tez
 } 
 .events-header{
     font-size:11vw; 
-    /* color:yellow */
 }
-
 /* Sceen sm and more*/
 @media(min-width:576px){
     .zebra-main{
@@ -62,33 +38,27 @@ background color tez
     .sklep-main {
         font-size: 3vw;
     } 
-    .main-custom {
-        background-color: rgb(254, 247, 237);  
+    .main-custom {  
         height: 90vh; 
     } 
     .events-font-size{
         font-size: 3.5vw;
-        /* color:green; */
     } 
     .events-header{
         font-size:7vw; 
-        /* color:blue; */
     }
 }  
 /*Screen lg and more*/
 @media(min-width: 768px){
     .events-font-size{
         font-size: 1.7vw;
-        /*color:red;*/
     } 
     .events-header{
         font-size:4vw; 
-        /* color:red */
     }
 }
 .font-awesome{
-    font-size:30px;  
-    color: rgb(58, 84, 180);    
+    font-size:30px;      
 }
 .headcard{
     font-family: Arial,Helvetica,sans-serif;  
@@ -98,21 +68,20 @@ background color tez
     background-color: rgb(58, 84, 180)
 }  
 .events-custom{
-    /* font-size:  57px ; */
     line-height: 1.25em;
 }
 .events-description{
     font-weight: lighter;
     position: relative; 
 }
-.img-container {
+.img-container{
     position: relative; 
-  }
-.img-container::after {
+}
+.img-container::after{
     content: "";
     display: block;
     padding-bottom: 100%;
-  }
+}
 .img-container img {
     position: absolute;
     width: 100%;
