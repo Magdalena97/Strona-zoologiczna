@@ -15,7 +15,7 @@
          <!-- PRZY ZMIEJSZANIU PROBLEM zmiejszyc odstep pozycji w menu po zmiejszeniu -->
         <div class="row background-custom pt-1">  
             <div class="col-12 px-0">
-                <nav class="navbar navbar-expand-lg navbar-light justify-content-end"> 
+                <nav class="navbar navbar-expand-lg navbar-light justify-content-end" id="mainNavbar"> 
                     <a class="navbar-brand" href="#"><h3 class="brand-custom colorOfFonts"><strong><i class="fas fa-paw font-awesome colorOfFonts pr-3"></i>Sklep Zebra</strong></h3></a>
                     <button class="navbar-toggler ml-auto mr-1" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
                         <span class="navbar-toggler-icon"></span>
@@ -23,22 +23,22 @@
                     <div class="collapse navbar-collapse flex-grow-0 ml-auto mr-3" id="navbarSupportedContent">
                         <ul class="navbar-nav">
                             <li class="nav-item active">
-                                <a class="nav-link p-0 p-lg-2" href="#"><h6 class="menu-custom menu-button-custom colorOfFonts">Strona Główna <span class="sr-only">(current)</span></h6></a>
+                                <a class="nav-link p-0 p-lg-2" href="#mainPage"><h6 class="menu-custom menu-button-custom colorOfFonts">Strona Główna <span class="sr-only">(current)</span></h6></a>
                             </li>
                             <li class="nav-item ">
-                                <a class="nav-link p-0 p-lg-2" href="#"><h6 class="menu-custom menu-button-custom colorOfFonts">Wydarzenia</h6></a>
+                                <a class="nav-link p-0 p-lg-2" href="#events"><h6 class="menu-custom menu-button-custom colorOfFonts">Wydarzenia</h6></a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link p-0 p-lg-2" href="#"><h6 class="menu-custom menu-button-custom colorOfFonts">Nasze zwierzaki</h6></a>
+                                <a class="nav-link p-0 p-lg-2" href="#ourAnimals"><h6 class="menu-custom menu-button-custom colorOfFonts">Nasze zwierzaki</h6></a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link p-0 p-lg-2" href="#"><h6 class="menu-custom menu-button-custom colorOfFonts">Co o nas myślą?</h6></a>
+                                <a class="nav-link p-0 p-lg-2" href="#opinions"><h6 class="menu-custom menu-button-custom colorOfFonts">Co o nas myślą?</h6></a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link p-0 p-lg-2" href="#"><h6 class="menu-custom menu-button-custom colorOfFonts">Poznajmy się!</h6></a>
+                                <a class="nav-link p-0 p-lg-2" href="#letsKnowNowUs"><h6 class="menu-custom menu-button-custom colorOfFonts">Poznajmy się!</h6></a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link p-0 p-lg-2" href="#"><h6 class="menu-custom menu-button-custom colorOfFonts">Kontakt</h6></a>
+                                <a class="nav-link p-0 p-lg-2" href="#concat"><h6 class="menu-custom menu-button-custom colorOfFonts">Kontakt</h6></a>
                             </li>
                         </ul>
                     </div>
@@ -47,9 +47,10 @@
                     </div> 
                 </nav>
             </div>  
-        </div>  
+        </div> 
+   
         <!-- STRONA GŁÓWNA -->
-        <div class="row background-custom main-custom pt-3 pt-sm-4 justify-content-center align-items-center "> 
+        <div class="row background-custom main-custom pt-3 pt-sm-4 justify-content-center align-items-center" id="mainPage"> 
             <div class="col-12 col-sm-auto text-center text-sm-left">  
                 <h1 class="zebra-main colorOfFonts "><strong>Zebra</strong></h1>
                 <h1 class="sklep-main colorOfFonts "><strong> Twój sklep zoologiczny</strong></h1>
@@ -63,7 +64,7 @@
             </div>
         </div>
         <!-- WYDARZENIA --> 
-        <div class="row mt-sm-5 mx-md-4">  
+        <div class="row mt-sm-5 mx-md-4" id="events">  
             <div class="col-12 text-center colorOfFonts my-5"> 
                 <h1 class="events-custom events-header"><strong>Wydarzenia</strong></h1>
             </div>
@@ -116,7 +117,7 @@
             </div>  
         </div> 
         <!-- NASZE ZWIERZAKI --> 
-        <div class="row justify-content-center mt-sm-5 mx-md-4">
+        <div class="row justify-content-center mt-sm-5 mx-md-4" id="ourAnimals">
             <div class="col-sm-12 text-center colorOfFonts my-5"> 
                 <h1 class="events-header"><strong>Nasze zwierzaki</strong></h1>
             </div>
@@ -152,7 +153,7 @@
             </div>
         </div>
         <!--CO WŁASCICIELE ZWIERZAT MOWIĄ O NAS  -->
-        <div class="row mt-sm-5">
+        <div class="row mt-sm-5" id="opinions">
             <div class="col-sm-12 text-center colorOfFonts my-5"> 
                 <h1 class="events-header"><strong>Co o Nas myślą?</strong></h1>
             </div>
@@ -188,7 +189,7 @@
             </div>
         </div>  
         <!--O NAS  --> 
-        <div class="row mt-sm-5 mx-md-4">  
+        <div class="row mt-sm-5 mx-md-4" id="letsKnowNowUs">  
             <div class="col-12 text-center mb-5">
                 <h1 class="colorOfFonts events-header mb-3 "><strong>Poznajmy się!</strong></h1> 
             </div>
@@ -207,7 +208,7 @@
             </div>
         </div>
         <!--KONTAKT  --> 
-        <div class="row color-custom mt-sm-5 justify-content-lg-center"> 
+        <div class="row color-custom mt-sm-5 justify-content-lg-center" id="concat"> 
             <div class="col-sm-12 text-center text-white my-5"> 
                 <h1 class="events-header"><strong>Kontakt</strong></h1>
             </div>
@@ -235,10 +236,53 @@
                 <i class="fab fa-facebook-square fa-2x"></i>
             </div> 
         </div>
+        <!-- Go Back button -->
+        <a id="back-to-top" href="#" class="btn  btn-lg back-to-top background-custom" role="button"><i class="fas fa-chevron-up"></i></a>  
     </div>
-   
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.0.min.js" integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ=" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script>
+        $(document).ready(function(){
+          // Add scrollspy to <body>
+          $('body').scrollspy({target: ".navbar"});   
+        
+          // Add smooth scrolling on all links inside the navbar
+          $("#navbarSupportedContent a").on('click', function(event) {
+            // Make sure this.hash has a value before overriding default behavior
+            if (this.hash !== "") {
+              // Prevent default anchor click behavior
+              event.preventDefault();
+        
+              // Store hash
+              var hash = this.hash;
+        
+              // Using jQuery's animate() method to add smooth page scroll
+              // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+              $('html, body').animate({
+                scrollTop: $(hash).offset().top
+              }, 800, function(){
+           
+                // Add hash (#) to URL when done scrolling (default click behavior)
+                window.location.hash = hash;
+              });
+            }  // End if
+          });
+          $(window).scroll(function () {
+			if ($(this).scrollTop() > 50) {
+				$('#back-to-top').fadeIn();
+			} else {
+				$('#back-to-top').fadeOut();
+			}
+		});
+		// scroll body to 0px on click
+		$('#back-to-top').click(function () {
+			$('body,html').animate({
+				scrollTop: 0
+			}, 400);
+			return false;
+		});
+        });
+        </script>
 </body>
 </html>

@@ -1,9 +1,12 @@
+body {
+    position: relative; 
+  }
 .background-custom {
     background-color: rgb(254, 247, 237); 
 }  
 .menu-custom{ 
     line-height: 40px;       
-} 
+}  
 .menu-button-custom{
     font-size: 14px; 
     font-weight: lighter;
@@ -113,4 +116,10 @@
 }
 .imgONas{
     width: 40vw;
+}
+.back-to-top {
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    display: none;
 }
