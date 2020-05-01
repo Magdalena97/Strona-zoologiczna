@@ -266,7 +266,7 @@
                 // Add hash (#) to URL when done scrolling (default click behavior)
                 window.location.hash = hash;
               });
-            }  // End if
+            }  
           });
           $(window).scroll(function () {
 			if ($(this).scrollTop() > 50) {
@@ -274,7 +274,7 @@
 			} else {
 				$('#back-to-top').fadeOut();
 			}
-		});
+		}); 
 		// scroll body to 0px on click
 		$('#back-to-top').click(function () {
 			$('body,html').animate({
